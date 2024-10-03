@@ -117,7 +117,7 @@
 ## 演習問題のpdf 
 ガイダンス資料と全ての演習問題をまとめました. 
 
-[ガイダンス資料+演習問題集](https://masataka123.github.io/2024_winter_geometry1/material/0_位相問題集.pdf)
+[ガイダンス資料+演習問題集](https://masataka123.github.io/2024_winter_geometry1/material/0_幾何学1問題集.pdf)
 
 以下は訂正リスト・バージョンアップの情報です. 間違いがあればこのファイルを訂正していきます.  
 
@@ -191,7 +191,7 @@
 
 このノートは2022 年度に幾何学1 演義を担当したときに松本幸夫著「多様体の基礎」の内容を自分用にまとめたものです.
 
-[幾何学1まとめノート](https://masataka123.github.io/2024_winter_generaltopology/material/0_幾何学1まとめ.pdf) 
+[幾何学1まとめノート](https://masataka123.github.io/2024_winter_geometry1/material/0_幾何学1まとめ.pdf) 
 
 参考程度に眺めてくれると幸いです. 書き間違い等があるので, 注意読んでください.
 
