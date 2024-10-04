@@ -730,8 +730,8 @@ $$
 (g\circ \varphi )d \varphi_{j_1} \wedge \cdots \wedge d \varphi_{j_l} 
 =
 (g\circ \varphi )
-\left(\sum_{i_1 =1}^{m}\pdrv{ y_{j_1}}{x_{i_1}} dx_{i_1} \right)\wedge \cdots \wedge 
-\left(\sum_{i_l =1}^{m}\pdrv{dy_{j_l}}{x_{i_l}} dx_{i_l}\right)
+\left(\sum_{i_1 =1}^{m}\pdrv{ \varphi_{j_1}}{x_{i_1}} dx_{i_1} \right)\wedge \cdots \wedge 
+\left(\sum_{i_l =1}^{m}\pdrv{\varphi_{j_l}}{x_{i_l}} dx_{i_l}\right)
 $$
 とする. これは$M$上の$l$次微分形式となる. 有限和の場合には$\R$線形になるように定義する. 
 
@@ -742,7 +742,7 @@ $$
  
  \begin{exa}
 
- $\omega=f_1dx_1+ f_2dx_2$,  $\eta=g_1dx_1+ g_2dx_2$, $\varphi (z_1, z_2) = (\varphi_1(z_1,z_2), \varphi_2(z_1,z_2))$とすると外積, 外微分, 引き戻しはそれぞれ次の通りとなる. 
+ $\omega=f_1dx_1+ f_2dx_2$,  $\eta=g_1dx_1+ g_2dx_2$, $\varphi (x_1, x_2) = (\varphi_1(x_1,x_2), \varphi_2(x_1,x_2))$とすると外積, 外微分, 引き戻しはそれぞれ次の通りとなる. 
     \begin{itemize}
     \setlength{\parskip}{0cm}
   \setlength{\itemsep}{2pt} 
@@ -759,10 +759,10 @@ $$
   $
  \varphi^{*}\omega
 =
- f_{1} (\varphi(z)) d\varphi_{1} +  f_{2} (\varphi(z)) d\varphi_{2}
+ f_{1} (\varphi(x)) d\varphi_{1} +  f_{2} (\varphi(x)) d\varphi_{2}
  =
-  f_{1} (\varphi(z)) \left(\pdrv{\varphi_1}{z_1} dz_1 + \pdrv{\varphi_1}{z_2} dz_2 \right) 
-  +  f_{2} (\varphi(z)) \left(\pdrv{\varphi_2}{z_1} dz_1 + \pdrv{\varphi_2}{z_2} dz_2 \right). 
+  f_{1} (\varphi(x)) \left(\pdrv{\varphi_1}{x_1} dx_1 + \pdrv{\varphi_1}{x_2} dx_2 \right) 
+  +  f_{2} (\varphi(x)) \left(\pdrv{\varphi_2}{x_1} dx_1 + \pdrv{\varphi_2}{x_2} dx_2 \right). 
   %&=(f_{1} (\varphi(z)) \pdrv{\varphi_1}{z_1} +  f_{2} (\varphi(z)) d\varphi_{2} (\pdrv{\varphi_2}{z_1})dz_1+ (f_{1} (\varphi(z))\pdrv{\varphi_1}{z_2}+  f_{2} (\varphi(z)) \pdrv{\varphi_2}{z_2} )dz_2
 $
  \end{itemize}
